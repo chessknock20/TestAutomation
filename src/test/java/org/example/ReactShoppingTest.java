@@ -4,6 +4,7 @@ import org.example.pages.CartPage;
 import org.example.pages.HomePage;
 import org.example.utils.ScreenShotUtils;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -12,6 +13,8 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 
 public class ReactShoppingTest extends BaseTest {
+
+
 
     @Test
     public void addOneItem() {

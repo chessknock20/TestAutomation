@@ -23,7 +23,6 @@ public class TestListener implements ITestListener {
         System.out.println("=========================================================");
         System.out.println("Test " + result.getMethod().getMethodName() +  " failed");
         System.out.println("=========================================================");
-
     }
 }
 
